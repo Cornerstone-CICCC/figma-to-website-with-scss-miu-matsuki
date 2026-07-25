@@ -14,6 +14,31 @@ a {
 
 nav {
   background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 10px;
+}
+
+.nav-image {
+  height: 60px;
+}
+
+.nav-menu {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.nav-menu a {
+  color: black;
+}
+
+li {
+  list-style: none;
 }
 
 .blue-back-button {
