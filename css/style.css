@@ -117,7 +117,7 @@ nav {
 }
 
 .our-story {
-  background-color: #e8ebec;
+  background-color: #EDF0F9;
 }
 .our-story .container {
   min-height: 50vh;
@@ -149,14 +149,13 @@ nav {
 }
 
 .portfolios {
-  background-color: #d7d7d7;
+  background-color: #CECECE;
 }
 .portfolios .container {
   min-height: 50vh;
-}
-.portfolios .container img {
-  height: auto;
-  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .portfolios h2 {
   font-size: 1.5rem;
@@ -164,7 +163,7 @@ nav {
   line-height: 1.2;
 }
 .portfolios .border-left {
-  border-left: 1px solid #111111;
+  border-left: 1.5px solid #111111;
   margin: 20px;
   margin-left: 40px;
   padding: 10px;
@@ -182,7 +181,7 @@ nav {
   justify-content: space-between;
 }
 .portfolios .featured-portfolios-header a {
-  font-size: smaller;
+  font-size: 10px;
 }
 .portfolios .portfolios-grid {
   display: grid;
@@ -234,7 +233,7 @@ nav {
 }
 
 .event {
-  background-color: #d7d7d7;
+  background-color: #CECECE;
 }
 .event .container {
   min-height: 50vh;

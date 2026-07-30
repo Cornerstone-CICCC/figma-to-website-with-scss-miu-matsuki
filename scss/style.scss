@@ -2,7 +2,7 @@
 // variables------------------------
 $blue-back-color: #3190E8;
 $blue-back-text-color: white;
-$gray-bg-color: #d7d7d7;
+$gray-bg-color: #CECECE;
 
 $font-family-base: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 $color-bg: #ffffff;
@@ -151,7 +151,7 @@ nav{
 
 
 .our-story {
-  background-color: #e8ebec;
+  background-color: #EDF0F9;
 
   .container {
     min-height:50vh;
@@ -196,14 +196,12 @@ nav{
 
   .container {
     min-height:50vh;
-    // display: flex;
-    // justify-content: center; 
-    // align-items: center;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    // align-items: flex-start;   
 
-      img{
-        height: auto;
-        width: 100px;
-      }
+
     }
 
   h2 {
@@ -213,7 +211,7 @@ nav{
   }
 
   .border-left{
-    border-left: 1px solid #111111;
+    border-left: 1.5px solid #111111;
     margin: 20px;
     margin-left: 40px;
     padding: 10px;
@@ -234,7 +232,7 @@ nav{
     justify-content: space-between;
 
     a{
-      font-size: smaller;
+      font-size: 10px;
     }
   }
   .portfolios-grid{
