@@ -43,12 +43,13 @@ a{
 .blue-back-button{
   display: inline-block;
   padding: 4px 8px;
-  border-radius: 4px;
+  border-radius: 3px;
   background-color: $blue-back-color;
   color:$blue-back-text-color;
   box-shadow: 0 4px 6px rgb(2, 23, 63);
-  font-size: 16px;
+  font-size: 12px;
   margin-top: 50px;
+  border: 1px solid rgb(1, 1, 65);
 }
 
 
