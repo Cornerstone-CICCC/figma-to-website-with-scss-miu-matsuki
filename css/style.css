@@ -147,4 +147,47 @@ nav {
   line-height: 1.5;
 }
 
+.portfolios {
+  background-color: #d7d7d7;
+}
+.portfolios .container {
+  min-height: 50vh;
+}
+.portfolios .container img {
+  height: auto;
+  width: 100px;
+}
+.portfolios h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.portfolios .border-left {
+  border-left: 1px solid #111111;
+  margin: 20px;
+  margin-left: 40px;
+  padding: 10px;
+}
+.portfolios h3 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.portfolios p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.portfolios .featured-portfolios-header {
+  display: flex;
+  justify-content: space-between;
+}
+.portfolios .featured-portfolios-header a {
+  font-size: smaller;
+}
+.portfolios .portfolios-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
