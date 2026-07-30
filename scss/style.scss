@@ -53,6 +53,10 @@ a{
   border: 1px solid rgb(1, 1, 65);
 }
 
+.blue-back{
+  background-color:$blue-back-color;
+  color:$blue-back-text-color;
+}
 
 
 // nav------------------------
@@ -208,6 +212,12 @@ nav{
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.2;
+
+    .blue-back{
+      .color-black{
+        color: black;
+      }
+    }
   }
 
   .border-left{
@@ -257,6 +267,12 @@ nav{
 
     .my-uxspace-left{
       flex:1;
+      
+    .blue-back{
+      border: 1px solid black;
+      padding-right: 15px;
+    }
+
     }
     .my-uxspace-right{
       flex:1;
@@ -272,6 +288,7 @@ nav{
 
     .my-uxspace-header{
       display: flex;
+      margin-bottom: 10px;
 
       img{
         width: 20px;
@@ -323,6 +340,10 @@ nav{
         font-size: 1.5rem;
         font-weight: 600;
         line-height: 1.2;
+
+        .blue-back{
+          padding-right: 15px;
+        }
       }
       p{
         font-size: 12px;

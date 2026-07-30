@@ -41,6 +41,11 @@ a {
   border: 1px solid rgb(1, 1, 65);
 }
 
+.blue-back {
+  background-color: #3190E8;
+  color: white;
+}
+
 nav {
   background-color: transparent;
   display: flex;
@@ -162,6 +167,9 @@ nav {
   font-weight: 300;
   line-height: 1.2;
 }
+.portfolios h2 .blue-back .color-black {
+  color: black;
+}
 .portfolios .border-left {
   border-left: 1.5px solid #111111;
   margin: 20px;
@@ -203,6 +211,10 @@ nav {
 .my-uxspace .container .my-uxspace-left {
   flex: 1;
 }
+.my-uxspace .container .my-uxspace-left .blue-back {
+  border: 1px solid black;
+  padding-right: 15px;
+}
 .my-uxspace .container .my-uxspace-right {
   flex: 1;
   display: flex;
@@ -215,6 +227,7 @@ nav {
 }
 .my-uxspace .container .my-uxspace-header {
   display: flex;
+  margin-bottom: 10px;
 }
 .my-uxspace .container .my-uxspace-header img {
   width: 20px;
@@ -260,6 +273,9 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.2;
+}
+.event .container .event-right h2 .blue-back {
+  padding-right: 15px;
 }
 .event .container .event-right p {
   font-size: 12px;
