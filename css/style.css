@@ -116,7 +116,7 @@ nav {
 }
 
 .our-story {
-  background-color: #e6f3fa;
+  background-color: #e8ebec;
 }
 .our-story .container {
   min-height: 50vh;
@@ -188,6 +188,48 @@ nav {
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   margin-top: 10px;
+}
+
+.my-uxspace {
+  background-color: #faf7f7;
+}
+.my-uxspace .container {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.my-uxspace .container .my-uxspace-left {
+  flex: 1;
+}
+.my-uxspace .container .my-uxspace-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-uxspace .container .my-uxspace-right img {
+  width: 90%;
+  height: auto;
+}
+.my-uxspace .container .my-uxspace-header {
+  display: flex;
+}
+.my-uxspace .container .my-uxspace-header img {
+  width: 20px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.my-uxspace .container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.my-uxspace .container .my-uxspace-main {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  gap: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
