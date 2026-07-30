@@ -37,6 +37,7 @@ a {
   color: white;
   box-shadow: 0 4px 6px rgb(2, 23, 63);
   font-size: 16px;
+  margin-top: 50px;
 }
 
 nav {
@@ -76,8 +77,6 @@ nav {
   height: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   position: relative;
   padding-bottom: 40px;
   flex-direction: column;
@@ -114,6 +113,38 @@ nav {
 
 .hero-contact img {
   height: 20px;
+}
+
+.our-story {
+  background-color: #e6f3fa;
+}
+.our-story .container {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-story .container .our-story-left {
+  flex: 1;
+}
+.our-story .container .our-story-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.our-story .container .our-story-right img {
+  margin-top: 200px;
+  height: auto;
+  width: 400px;
+}
+.our-story .container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.our-story .container p {
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=style.css.map */
