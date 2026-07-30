@@ -1,25 +1,69 @@
+
+// variables------------------------
 $blue-back-color: #3190E8;
 $blue-back-text-color: white;
 
+$font-family-base: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+$color-bg: #ffffff;
+$color-text: #111111;
+$max-width: 1200px;
+// Reset----------------------------
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
-a{
-  text-decoration: none;
+body {
+  font-family: $font-family-base;
+  background-color: $color-bg;
+  color: $color-text;
+  line-height: 1.6;
 }
 
-.hero{
-  background-image: url("../images/hero-background.svg");
-  background-size: cover;
+img {
+  display: block;
+  max-width: 100%;
 }
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+// Common-------------------
+.container{
+  padding: 30px;
+}
+
+.blue-back-button{
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: $blue-back-color;
+  color:$blue-back-text-color;
+  box-shadow: 0 4px 6px rgb(2, 23, 63);
+  font-size: 16px;
+}
+
+
+
+// nav------------------------
 nav{
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
-  padding: 10px;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 30px;
+  
 }
 .nav-image{
   height:60px;
@@ -28,22 +72,80 @@ nav{
 .nav-menu{
   font-size: 12px;
   display: flex;
-  flex-direction:row;
-  justify-content: space-between;
+  align-items: center;
   gap: 40px;
+  font-size: 12px;
+  
+  a {
+    color: black;
+
+    &:hover {
+      color: $blue-back-color;
+    }
+  }
 }
 
-.nav-menu a {
- color:black;
+
+//  HERO----------------------
+
+.hero{
+  // background-image: url("../images/hero-background.svg");
+  background-image:     linear-gradient(
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),url("../images/Hero-backimage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 40px;
+
+  flex-direction: column;
+  justify-content: center; // 上下中央
+  align-items: center;     // 左右中央
+  padding: 40px 20px;
+  
 }
 
-li{
-  list-style: none;
+
+.hero-message {
+    text-align: center;
+    margin: auto 0;   
+
+    h1 {
+      font-size: 4rem;
+      font-weight: 600;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5rem;
+      font-weight: 400;
+      letter-spacing: -1.1px;
+    }
+  }
+
+.hero-contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+}
+
+.hero-contact img{
+  height: 20px;
 }
 
 
-.blue-back-button{
-  background-color: $blue-back-color;
-  color:$blue-back-text-color
-}
+
 
