@@ -372,3 +372,59 @@ nav{
     }
   }
 }
+
+
+// contact-us--------------
+
+
+.contact-us {
+  background-color: #faf7f7;
+  
+  .container {
+    // min-height:50vh;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+
+    .still-have-questions{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      p{
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+
+    h2 {
+      font-size: 2rem;
+      border-bottom: 1px solid black;
+    }
+    img{
+      width: 40px;
+      height: auto;
+    }
+
+    .career-left{
+      flex:1;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items:flex-start;    padding: 50px; 
+    }
+    .career-right{
+      flex:1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    p{
+      font-size: 12px;
+    }
+  }
+}
+
+// Footer-------------------
+
