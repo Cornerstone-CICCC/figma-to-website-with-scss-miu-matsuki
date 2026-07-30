@@ -38,7 +38,9 @@ a{
 
 // Common-------------------
 .container{
-  padding: 30px;
+  // max-width:$max-width;
+  // margin:0 auto;
+  padding:30px;
 }
 
 .blue-back-button{
@@ -464,7 +466,7 @@ footer {
     
     a{
       font-size: 12px;
-      font-weight: 10;
+      font-weight: 100;
     }
 
     .footer-column{
@@ -475,12 +477,16 @@ footer {
       gap:10px;
 
       h3 {
-        font-size: 10px;
-        font-weight: 10;
+        font-size: small;
       }
 
       .underline{
         text-decoration: underline;
+      }
+
+      .follow-us{
+        font-size: 10px;
+        font-weight: 10;
       }
     }
 
