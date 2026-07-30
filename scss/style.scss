@@ -2,6 +2,7 @@
 // variables------------------------
 $blue-back-color: #3190E8;
 $blue-back-text-color: white;
+$gray-bg-color: #d7d7d7;
 
 $font-family-base: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 $color-bg: #ffffff;
@@ -191,7 +192,7 @@ nav{
 // VIEW PORTFOLIOS-----------------------------
 
 .portfolios {
-  background-color: #d7d7d7;
+  background-color: $gray-bg-color;
 
   .container {
     min-height:50vh;
@@ -226,7 +227,6 @@ nav{
   p {
     font-size: 12px;
     line-height: 1.5;
-    
   }
 
   .featured-portfolios-header{
@@ -292,5 +292,47 @@ nav{
       font-size: 12px;
       gap: 30px;
     }
+  }
+}
+
+// events--------------------
+.event {
+  background-color: $gray-bg-color;
+
+  .container {
+    min-height:50vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    padding: 50px; 
+
+
+    .event-left{
+      flex:1;
+      img{
+        width: 70%;
+        height: auto;
+      }
+    }
+    .event-right{
+      flex:1;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items:flex-start;
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+      p{
+        font-size: 12px;
+      }
+
+    }
+
+  
+
   }
 }
